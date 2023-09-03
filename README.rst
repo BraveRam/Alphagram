@@ -1,9 +1,3 @@
-.. image:: https://pasteboard.co/rz8VtM90XPJR.jpg
-   :align: center
-   :target: https://github.com/really650a/Alphagram
-   :alt: Alphagram
-
-
 ==================
 Alphagram Library
 ==================
@@ -37,27 +31,27 @@ Here's a simple example to get your bot up and running:
 
 .. code-block:: python
 
-    from alphagram import TelegramBot
+    from alphagram.alphagram import Alphagram 
 
-    bot = TelegramBot('YOUR_API_KEY')
+    bot = Alphagram('YOUR_API_KEY')
 
     @bot.message_handler(commands=['start'])
     def start(message):
         bot.send_message(message.chat.id, 'Hello, welcome to Alphagram!')
 
-    bot.polling()
+    bot.start()
 
 Contribute
 ----------
 
-- Issue Tracker: `GitHub Issues <https://github.com/yourusername/alphagram/issues>`_
-- Source Code: `GitHub <https://github.com/yourusername/alphagram>`_
+- Issue Tracker: `GitHub Issues <https://github.com/really650a/alphagram/issues>`_
+- Source Code: `GitHub <https://github.com/really650a/alphagram>`_
 
 Support
 -------
 
 If you are having issues, please let us know.
-You can contact us at `support@example.com <mailto:support@example.com>`_.
+You can contact us at `Alphalm1000@gmail.com <mailto:support@example.com>`_.
 
 License
 -------
