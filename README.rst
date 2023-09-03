@@ -23,8 +23,8 @@ To install Alphagram, run the following command:
 .. code-block:: shell
 
     $ git clone https://github.com/really650a/Alphagram
-$ cd alphagram
-$ python setup.py install
+    $ cd alphagram
+    $ python setup.py install
 
 Quick Start
 -----------
