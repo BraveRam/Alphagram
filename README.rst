@@ -37,7 +37,7 @@ Here's a simple example to get your bot up and running:
 
     @bot.message_handler(commands=['start'])
     def start(message):
-        bot.send_message(message.chat.id, 'Hello, welcome to Alphagram!')
+        bot.send_message(message["chat"]["id"], 'Hello, welcome to Alphagram!')
 
     bot.start()
 
