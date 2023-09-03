@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png
+.. image:: https://pasteboard.co/rz8VtM90XPJR.jpg
    :align: center
    :target: https://github.com/really650a/Alphagram
    :alt: Alphagram
